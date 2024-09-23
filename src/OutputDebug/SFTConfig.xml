@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--System Funcional Test Config File Classic version-->
+<SystemFunctionalTest>
+  <Language Name="pt-BR" />
+  <AutoTest StopAtFail="True" />
+  <Phase Name="UT161">
+  <!--Configurations for all test cases-->
+  <TestMenu>
+    <MenuItem Name="RemovableDevice">
+       <!--RemovableDevice Item-->
+       <MappedDrive>D</MappedDrive>
+       <MappedDrive>E</MappedDrive>
+       <MappedDrive>F</MappedDrive>
+       <MappedDrive>G</MappedDrive>
+       <MappedDrive>H</MappedDrive>
+       <MappedDrive>I</MappedDrive>
+       <MappedDrive>J</MappedDrive>
+     </MenuItem>
+
+     <MenuItem Name="Fan"/>
+    
+     <MenuItem Name="SpeakerOnly">
+        <DeviceName>Alto-falantes</DeviceName>
+     </MenuItem>
+    
+     <MenuItem Name="HeadsetOne">
+       <Property AudioOutSource="TestAudio.mp3" />
+     </MenuItem>
+
+     <MenuItem Name="HeadsetTwo">
+       <Property AudioOutSource="TestAudio.mp3" />
+     </MenuItem>
+
+    <MenuItem Name="HDMIDisplay">
+      <Filename>TestVideo.mp4</Filename>
+      <DeviceName>Intel(R) para telas</DeviceName>
+    </MenuItem>
+
+    <MenuItem Name="ExtDisplayOne">
+      <Filename>TestVideo.mp4</Filename>
+    </MenuItem>
+
+    <MenuItem Name="ExtDisplayTwo">
+      <Filename>TestVideo.mp4</Filename>
+    </MenuItem>
+
+  </TestMenu>
+  </Phase>
+
+  <Phase Name="Auto">
+    <!--Configurations for all tests which are eligible for automatic testing-->
+    <TestMenu>
+
+    </TestMenu>
+  </Phase>
+  <TestPath>
+    <SpeakerOnly>AudioTest.exe</SpeakerOnly>
+    <Fan>fan.exe</Fan>
+    <HeadsetOne>AudioHeadset.exe</HeadsetOne>
+    <HeadsetTwo>AudioHeadset.exe</HeadsetTwo>
+    <HDMIDisplay>HDMIDisplay.exe</HDMIDisplay>
+    <ExtDisplayOne>ExternalDisplay.exe</ExtDisplayOne>
+    <ExtDisplayTwo>ExternalDisplay.exe</ExtDisplayTwo>
+    <GenerateSystemSettings>GenerateSystemSettings.exe</GenerateSystemSettings>
+    <SystemInfo>SystemInfoTest.exe</SystemInfo>
+    <Bluetooth>Bluetooth.exe</Bluetooth>
+    <Battery>Battery.exe</Battery>
+    <Brightness>Brightness.exe</Brightness>
+    <Display>Display.exe</Display>
+    <ExtDisplay>ExternalDisplay.exe</ExtDisplay>
+    <Accelerometer>Accelerometer.exe</Accelerometer>
+    <Gyrometer>Gyrometer.exe</Gyrometer>
+    <Light>LightSensor.exe</Light>
+    <Compass>Compass.exe</Compass>
+    <GPS>Geolocation.exe</GPS>
+    <Pen>Pen.exe</Pen>
+    <Touch>Touch.exe</Touch>
+    <Touchpad>Touchpad.exe</Touchpad>
+    <Keyboard>Keyboard.exe</Keyboard>
+    <RemovableDevice>RemovableDevice.exe</RemovableDevice>
+    <WiFi>WiFi.exe</WiFi>
+    <SIM>SIM.exe</SIM>
+    <Speaker>Audio.exe</Speaker>
+    <Headset>AudioHeadset.exe</Headset>
+    <Keypad>HardwareButton.exe</Keypad>
+    <FrontCamera>FrontCameraSkin.exe</FrontCamera>
+    <FrontCameraRec>FrontCameraSkinRec.exe</FrontCameraRec>
+    <RearCamera>RearCameraSkin.exe</RearCamera>
+    <RearCameraRec>RearCameraSkinRec.exe</RearCameraRec>
+    <LAN>LAN.exe</LAN>
+    <Biometric>Biometric.exe</Biometric>
+    <IRCamera>IRCamera.exe</IRCamera>
+    <SerialPort>SerialPortTest.exe</SerialPort>
+    <Upload>Upload.exe</Upload>
+  </TestPath>
+</SystemFunctionalTest>

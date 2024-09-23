@@ -1,0 +1,2 @@
+call KeyboardFullTest.exe pt-BR Pause Alt_R Ctrl_R Shift_R Delete Subtract Add Divide Multiply Decimal NumPad7 NumPad8 NumPad9 NumPad4 NumPad5 NumPad6 NumPad1 NumPad2 NumPad3 NumPad0 MultPlus GloboPlay PrimeVideo Youtube
+pause

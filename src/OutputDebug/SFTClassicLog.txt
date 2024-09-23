@@ -1,0 +1,8 @@
+2024/02/22 10:51:18.010	[Info] - START	Fechar Fan retornou o código de erro 128.
+2024/02/22 10:51:26.849	[Info] - START	Fechar Fan retornou o código de erro 128.
+2024/04/22 08:57:39.489	[Info] - Signal = 0 , SSID = , PhyType = 
+2024/04/22 08:59:48.319	[Info] - Signal = 0 , SSID = , PhyType = 
+2024/04/22 09:24:53.415	[Info] - Signal = 0 , SSID = , PhyType = 
+2024/04/22 09:24:56.929	[Info] - Signal = 0 , SSID = , PhyType = 
+2024/04/22 17:25:18.447	[Info] - Signal = 0 , SSID = , PhyType = 
+2024/08/02 17:29:31.529	[Error] - RadioManagers.exe file not found

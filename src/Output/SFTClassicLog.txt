@@ -1,0 +1,24 @@
+2024/08/02 17:29:59.079	[Error] - RunTest: Battery Failed - incorrect file path: Battery.exe
+2024/08/02 17:30:00.558	[Error] - RunTest: Battery Failed - incorrect file path: Battery.exe
+2024/08/02 17:30:01.208	[Info] - START	SystemInfo - Inputs: pt-BR "Multilaser Industrial 1, 9/12/2019" "223GB" "24GB" "Intel(R) Core(TM) i7-8700T CPU @ 2.40GHz" "1"
+2024/08/02 17:30:02.629	[Warning] - System bios: American Megatrends Inc. F14 PH, 4/25/2022
+2024/08/02 17:30:02.629	[Warning] - Memory: 16GB
+2024/08/02 17:30:02.630	[Warning] - Disk size: 447GB
+2024/08/02 17:30:02.699	[Info] - FAIL	SystemInfo
+2024/08/02 17:30:02.699	[Info] - FINISH	SystemInfo
+2024/08/02 17:30:04.039	[Info] - START	SystemInfo - Inputs: pt-BR "Multilaser Industrial 1, 9/12/2019" "223GB" "24GB" "Intel(R) Core(TM) i7-8700T CPU @ 2.40GHz" "1"
+2024/08/02 17:30:05.379	[Warning] - System bios: American Megatrends Inc. F14 PH, 4/25/2022
+2024/08/02 17:30:05.379	[Warning] - Memory: 16GB
+2024/08/02 17:30:05.380	[Warning] - Disk size: 447GB
+2024/08/02 17:30:05.416	[Info] - FAIL	SystemInfo
+2024/08/02 17:30:05.416	[Info] - FINISH	SystemInfo
+2024/08/02 17:30:05.418	[Error] - RunTest: Brightness Failed - incorrect file path: Brightness.exe
+2024/08/02 17:30:06.342	[Error] - RunTest: Brightness Failed - incorrect file path: Brightness.exe
+2024/08/02 17:30:07.634	[Info] - START	Display - Inputs: pt-BR "#FFFFFF" "#8F8F8F" "#000000" "#FF0000" "#00FF00"
+2024/08/02 17:30:12.064	[Info] - FAIL	Display
+2024/08/02 17:30:12.064	[Info] - FINISH	Display
+2024/08/02 17:30:14.911	[Info] - START	FrontCameraRec - Inputs: pt-BR "#646464"
+2024/08/02 17:30:17.850	[Info] - FAIL	FrontCameraRec
+2024/08/02 17:30:17.850	[Info] - FINISH	FrontCameraRec
+2024/08/02 17:30:23.478	[Error] - RunTest: Headset Failed - incorrect file path: AudioHeadset.exe
+2024/08/02 17:30:24.142	[Error] - RunTest: Biometric Failed - incorrect file path: Biometric.exe

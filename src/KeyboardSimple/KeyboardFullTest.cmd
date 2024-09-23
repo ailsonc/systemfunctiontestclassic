@@ -1,0 +1,1 @@
+call KeyboardSimple.exe pt-BR pause PrtScn Scroll Delete Home PageUp Next End Apps Alt_R Ctrl_R Shift_R GloboPlay Menu Youtube

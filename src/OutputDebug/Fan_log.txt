@@ -1,0 +1,12 @@
+1. 2024-02-22 10:52:11    Fan1 rpm=0;   Fan2 rpm=1917;   Fan3 rpm=0;   
+15. 2024-02-22 10:52:18    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   
+16. 2024-02-22 10:52:18    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   
+17. 2024-02-22 10:52:19    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   
+18. 2024-02-22 10:52:19    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   
+19. 2024-02-22 10:52:20    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   
+20. 2024-02-22 10:52:21    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   
+21. 2024-02-22 10:52:21    Fan1 rpm=0;   Fan2 rpm=1086;   Fan3 rpm=0;   
+22. 2024-02-22 10:52:22    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   
+24. 2024-02-22 10:52:23    Fan1 rpm=0;   Fan2 rpm=1081;   Fan3 rpm=0;   
+25. 2024-02-22 10:52:23    Fan1 rpm=0;   Fan2 rpm=1081;   Fan3 rpm=0;   
+26. 2024-02-22 10:52:24    Fan1 rpm=0;   Fan2 rpm=1083;   Fan3 rpm=0;   

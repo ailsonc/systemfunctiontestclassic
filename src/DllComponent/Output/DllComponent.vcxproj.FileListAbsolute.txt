@@ -1,0 +1,2 @@
+D:\desenv\SystemFunctionTestClassic2\DllComponent\Output\DllComponent.vcxprojAssemblyReference.cache
+D:\desenv\systemfunctiontestclassic_10\DllComponent\Output\DllComponent.vcxprojAssemblyReference.cache

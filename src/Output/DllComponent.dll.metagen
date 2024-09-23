@@ -1,0 +1,30 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly DllComponent, Version=4.3.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct DllComponent.BatteryInfo: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 Result : Public
+    UInt32 PowerState IsLong : Public
+    UInt32 Capacity IsLong : Public
+    UInt32 FullCapcity IsLong : Public
+    UInt32 Rate IsLong : Public
+Class DllComponent.CoreComponent: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    BioEnum(): PrivateScope, Public, HideBySig
+    BioOpen(): PrivateScope, Public, HideBySig
+    BioLocate(UInt32 IsLong): PrivateScope, Public, HideBySig
+    TestBiometric(UInt32 IsLong): PrivateScope, Public, HideBySig
+    DiscardEnroll(UInt32 IsLong): PrivateScope, Public, HideBySig
+    TestBrightness(): PrivateScope, Public, HideBySig
+    TestWiFi(String, Int32): PrivateScope, Public, HideBySig
+    TestBT(Int32): PrivateScope, Public, HideBySig
+    GetCameraDevice(): PrivateScope, Public, HideBySig
+    DisableTouch(IntPtr): PrivateScope, Public, HideBySig
+    QueryBatteryInfo(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
